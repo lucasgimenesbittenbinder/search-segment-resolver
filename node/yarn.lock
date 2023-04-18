@@ -215,10 +215,10 @@
     semver "^7.3.2"
     tsutils "^3.17.1"
 
-"@vtex/api@6.44.0":
-  version "6.44.0"
-  resolved "https://registry.yarnpkg.com/@vtex/api/-/api-6.44.0.tgz#8dc2a27c37635278117310bcc5cd16203c0a5849"
-  integrity sha512-7nPIwzQz55Mu0E1BOoW1noObZet9J34iKmeAJU3TRL7iiGmPZB0McSjC6KgDHkfqYgim2JGrnCsa1978ffbwKQ==
+"@vtex/api@6.45.15":
+  version "6.45.15"
+  resolved "https://registry.yarnpkg.com/@vtex/api/-/api-6.45.15.tgz#aa987d22f7df16ce2861130deda6ffd63156817b"
+  integrity sha512-Rg1VGDzJ4hHUNp1vSidMdGGPojr1PikMTptlZsJ3oNZVdEo4cPx2l8ZcAEwHWORL7QjPjXaEgmeA5ZOSf+boCQ==
   dependencies:
     "@types/koa" "^2.11.0"
     "@types/koa-compose" "^3.2.3"
@@ -2990,13 +2990,21 @@ vary@^1.1.2:
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
   integrity sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=
 
-"vtex.messages@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.messages@1.63.0/public/@types/vtex.messages":
-  version "1.63.0"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.messages@1.63.0/public/@types/vtex.messages#97cb0ea6df0bd2cc144f40ceb48b7fa6180e5033"
+"vtex.messages@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.messages@1.67.0/public/@types/vtex.messages":
+  version "1.67.0"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.messages@1.67.0/public/@types/vtex.messages#bcf3584e3014c233cf360b22e4dc9f4ccb2136a7"
 
 "vtex.search-segment-graphql@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.search-segment-graphql@0.1.0/public":
   version "0.0.0"
   resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.search-segment-graphql@0.1.0/public#42d0622545ecef72fb09b7e4fff8c518f03e89eb"
+
+"vtex.search-session@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.search-session@0.2.10/public/_types/react":
+  version "0.0.0"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.search-session@0.2.10/public/_types/react#fa7a0347e046eab3dd768998fc9252b2c0dd5aef"
+
+"vtex.store-graphql@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-graphql@2.161.2/public/@types/vtex.store-graphql":
+  version "2.161.2"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-graphql@2.161.2/public/@types/vtex.store-graphql#6348bb2c1fe66a47a2a0f5f600cbf84a4a43d144"
 
 which-pm-runs@^1.0.0:
   version "1.0.0"

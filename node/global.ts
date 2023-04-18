@@ -22,6 +22,7 @@ declare global {
     userEmail?: string
     isAuthenticated?: boolean
     selectedFacets?: SelectedFacet[]
+    pet?: string
   }
 
   interface SelectedFacet {

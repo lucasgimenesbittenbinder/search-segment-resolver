@@ -1,11 +1,13 @@
 export const queries = {
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  searchSegment: async (_: unknown, args: SearchSegmentInput, __: Context) => {
-    // This is just a dummy implementation which returs the input itself
-    // const { myClient } = ctx.clients
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
+    searchSegment: async (_: unknown, args: SearchSegmentInput, __: Context) => {
+        console.log({args})
+      const userEmail = args.userEmail
+      const domain = userEmail?.split('@')[1]
+  
+        console.log({ userEmail })
 
-    console.log({ args })
-
-    return args.selectedFacets
-  },
-}
+      return domain === 'b8one.com' ? [{ key: 'category-1', value: 'Teste Privalia - Departamento' }] : [{ key: 'productClusterIds', value: '456' }]
+    },
+  }
+  
